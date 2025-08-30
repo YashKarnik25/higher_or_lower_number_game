@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(255, 185, 94);
+}
+
+h1 {
+    color: blue;
+
+}
+
+.container {
+    height: 6cm;
+    width: 15cm;
+    background-color: red;
+    margin-top: 3cm;
+    border-radius: 8px;
+
+
+
+}
+
+.wrapper {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 148);
+    display: flex;
+}
+
+.number {
+    height: 2cm;
+    width: 2cm;
+    background-color: green;
+    margin-top: 1cm;
+    color: whitesmoke;
+    font-size: 60px;
+
+}
+
+.player0,
+.player1 {
+    height: 100%;
+}
+
+.player0 {
+    width: 50%;
+
+}
+
+.player1 {
+    width: 50%;
+
+}
+
+.score0,
+.score1 {
+    margin-top: 1.5cm;
+    height: 2cm;
+    width: 2cm;
+    background-color: yellowgreen;
+    font-size: 50px;
+    border-radius: 5px;
+
+
+}
+
+.opt0,
+.opt1 {
+    display: flex;
+    margin-top: 2cm;
+    gap: 8px;
+}
+
+.btn {
+    height: 0.9cm;
+    width: 8cm;
+    gap: 2cm;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.btnhigh {
+    background-color: red;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px red;
+}
+
+.btneq {
+    background-color: rgb(219, 219, 219);
+    box-shadow: 3px 3px 3px rgb(173, 173, 173);
+
+
+}
+
+.btnlow {
+    background-color: rgb(68, 203, 0);
+    color: #ffffff;
+    box-shadow: 3px 3px 3px rgb(52, 155, 0);
+
+}
+
+.active {
+    background-color: rgb(255, 255, 0);
+}
+
+.btnres {
+    width: 4cm;
+    height: 0.9cm;
+    margin-top: 1cm;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
+    color: darkblue;
+    cursor: pointer;
+
+}
+
+p {
+    font-size: 18px;
+    background-color: rgb(239, 238, 238);
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    border-radius: 8px;
+    border: 1px inset blue;
+    color: rgb(123, 0, 255);
+
+}
